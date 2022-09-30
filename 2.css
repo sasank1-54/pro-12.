@@ -1,0 +1,49 @@
+.container1{
+    float: left;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.container2{
+    float: right;
+    margin-top: 8%;
+    width: 40%;
+    margin-right: 30%;
+    align-items: center;
+}
+div.container1 > p{
+    border: 2px solid grey;
+    text-align: center;
+    color: grey;
+    padding: 20px;
+    width: 85%;
+    margin-left: 50%;
+}
+div.container2 > p{
+    text-align: center;
+}
+div.container2 > p:nth-child(1){
+    width: 50%;
+    margin-left: 6%;
+}
+div.container2 > p > span:nth-child(odd){
+    color: orange;
+    font-size:350%;
+}
+div.container2 > p > span:nth-child(even){
+    color: rgb(81, 80, 80);
+    font-size: 300%;
+    font-weight:900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.container2 > p:nth-child(2){
+    color: rgb(96, 192, 160);
+    font-size: 200%;
+    margin-top: -10px;
+    padding-right: 35%;
+}
+div.container2 > p:nth-child(3){
+    color: grey;
+    font-size: 150%;
+    margin-top: -15px;
+    padding-right: 35%;
+}
